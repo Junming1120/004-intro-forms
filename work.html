@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <title>Flight Booking</title>
+</head>
+<body>
+
+
+    <form>
+
+
+        <div>
+            <label for="Departure city">Departure city: </label>
+            <input type="text" id="Departure city" name="Departure city"placeholder="Kunming(KMG)">
+            <label for="Arrival city">Arrival city: </label>
+            <input type="text" id="Arrival city" name="Arrival city"placeholder="Vancouver(YVR)">
+        </div>
+       
+        <br>
+
+
+        <div>
+            <label for="date">Departure Date :</label>
+            <input type="date" id="date" name="date">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Class">Class:</label>
+            <select id="class" name="class">
+                <option>Economy</option>
+                <option>Premium Economy</option>
+                <option>Business</option>
+                <option>First class</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Passenger">Passenger(s):</label>
+            <select id="Passenger" name="Passenger">
+                <option>Adult</option>
+                <option>Youth(12-15)</option>
+                <option>Child(2-11)</option>
+                <option>Infant(on lap)</option>
+                <option>Infant(in seat)</option>
+            </select>
+            <label for="# Passenger(s) "># Passenger(s): </label>
+            <input type="number" id="# Passenger(s)" name="# Passenger(s)">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="title">Trip type</label>
+           
+            <label for="Trip type">Round-trip</label>
+            <input type="radio" id="rt" name="title">
+            <label for="ow">One-way</label>
+            <input type="radio" id="ow" name="title">
+
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <label for="search">Only search for non-stop :</label>
+            <input type="checkbox" id="search" name="search">
+        </div>
+
+
+        <br>
+
+
+        <div>
+            <input type="submit" value="Search Flight">
+        </div>
+    </form>
+</body>
+</html>
